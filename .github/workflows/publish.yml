@@ -1,9 +1,6 @@
 # File: .github/workflows/publish.yml
 name: publish-to-github-pages
 on:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: read
