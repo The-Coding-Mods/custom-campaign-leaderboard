@@ -83,7 +83,15 @@ export default function DefaultLayout({
       <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1b262b5f24484048b7f13f0c85d91954"}'></script>
         {children}
       </main>
-      <footer className="w-full flex items-center justify-end py-3">
+      <footer className="w-full flex items-center justify-between py-3">
+        <Link
+          isExternal
+          className="pl-5 flex items-center gap-1 text-current"
+          href="https://trackmania.io"
+          title=""
+        >
+          <p className="text-primary underline font-normal">Powered by tm.io</p>&nbsp;&nbsp;&nbsp;&nbsp;
+        </Link>
         <Link
           isExternal
           className="flex items-center gap-1 text-current"
