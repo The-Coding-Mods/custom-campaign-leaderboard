@@ -80,7 +80,7 @@ export default function DefaultLayout({
         </Link>
       </header>
       <main className="container mx-auto max-w-7xl px-6 flex-grow pt-6 items-center">
-      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1b262b5f24484048b7f13f0c85d91954"}'></script>
+        <script defer src="https://umami.socr.am/script.js" data-website-id="6a9f6c28-b8ac-4b3e-8021-816a48a99ccd"></script>
         {children}
       </main>
       <footer className="w-full flex items-center justify-between py-3">
