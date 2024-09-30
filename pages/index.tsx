@@ -9,7 +9,7 @@ interface Campaign {
   id: number,
   enabled: boolean
 }
-const campaigns: Campaign[] = [{id: 76165, enabled: true}, {id: 76166, enabled: true}, {id: 76169, enabled: true}, {id: 76170, enabled: true}, {id: 76165, enabled: false}, ]
+const campaigns: Campaign[] = [{id: 76165, enabled: true}, {id: 76166, enabled: true}, {id: 76169, enabled: true}, {id: 76170, enabled: true}, {id: 76172, enabled: true}, ]
 
 export default function IndexPage() {
   return (

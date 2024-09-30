@@ -27,7 +27,7 @@ const campaigns = [
   76166,
   76169,
   76170,
-  null,
+  76172,
 ]
 
 const getCampaign = async (CAMPAIGN_ID) => {

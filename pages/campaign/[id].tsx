@@ -55,7 +55,7 @@ interface Campaign {
 
 export async function getStaticPaths() {
     return {
-      paths: [{ params: { id: '76165' } }, { params: { id: '76166' } }, { params: { id: '76169' } }, { params: { id: '76170' } }],
+      paths: [{ params: { id: '76165' } }, { params: { id: '76166' } }, { params: { id: '76169' } }, { params: { id: '76170' } }, { params: { id: '76172' } }],
       fallback: false
     }
 }

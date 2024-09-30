@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from datetime import datetime
 import json
 
-campaigns = [76165, 76166, 76169,76170]
+campaigns = [76165, 76166, 76169,76170,76172]
 main_lb = {}
 final_lb = []
 
